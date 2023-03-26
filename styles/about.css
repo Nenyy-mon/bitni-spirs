@@ -110,7 +110,7 @@ div.bread {
   width: 100%;
 }
 div.breadfirstimg {
-  background-image: url(/images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3509.jpg);
+  background-image: url(../images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3509.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,7 +131,7 @@ h2.breadfirsttxt {
   color: #012612;
 }
 div.breadfourthimg {
-  background-image: url(/images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3613.jpg);
+  background-image: url(../images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3613.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +141,7 @@ div.breadfourthimg {
   display: flex;
 }
 div.breadthirdimg {
-  background-image: url(/images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3495.jpg);
+  background-image: url(../images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3495.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,7 +151,7 @@ div.breadthirdimg {
   display: flex;
 }
 div.meatfirstimg {
-  background-image: url(/images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3376.jpg);
+  background-image: url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3376.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,7 +161,7 @@ div.meatfirstimg {
   display: flex;
 }
 div.meatsecondimg {
-  background-image: url(/images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3413a.jpg);
+  background-image: url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3413a.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,7 +171,7 @@ div.meatsecondimg {
   display: flex;
 }
 div.meatthirdimg {
-  background-image: url(/images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3425.jpg);
+  background-image: url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3425.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,7 +181,7 @@ div.meatthirdimg {
   display: flex;
 }
 div.meatfourthimg {
-  background-image: url(/images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3467a.jpg);
+  background-image: url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3467a.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,7 +199,7 @@ div.meatfourthimg {
     text-align: center;
   }
   div.breadthirdimg {
-    background-image: url(/images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3495crop.jpg);
+    background-image: url(../images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3495crop.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,7 +210,7 @@ div.meatfourthimg {
   }
 }
 div.breadsecondimg {
-  background-image: url(/images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3329.jpg);
+  background-image: url(../images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3329.jpg);
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed;
