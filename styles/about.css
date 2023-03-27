@@ -1,6 +1,4 @@
-@media (max-width: @iphone-screen) {
-        background-attachment: scroll;
-  {
+
 @font-face {
   font-family: "Reforma";
   src: url("../assets/fonts/ReformaGroteskMediumC.woff") format("woff");
