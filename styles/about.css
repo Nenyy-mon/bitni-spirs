@@ -500,14 +500,3 @@ div.langs a {
 div.langs a:hover {
   color: white;
 }
-@media screen and (max-width: 400px) {
-  div.breadfirstimg,
-  div.breadsecondimg,
-  div.breadthirdimg,
-  div.breadfourthimg,
-  div.meatfirstimg,
-  div.meatsecondimg,
-  div.meatthirdimg,
-  div.meatfourthimg {
-    background-attachment: scroll !important;
-  }
