@@ -145,6 +145,18 @@ div.breadfirstimg {
   width: 100%;
   display: flex;
 }
+
+@media screen and (max-width: 400px) {
+  div.breadfirstimg,
+  div.breadsecondimg,
+  div.breadthirdimg,
+  div.breadfourthimg,
+  div.meatfirstimg,
+  div.meatsecondimg,
+  div.meatthirdimg,
+  div.meatfourthimg {
+    background-attachment: scroll !important;
+  }
 h2.bread {
   color: white;
   display: flex;
