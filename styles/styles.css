@@ -316,6 +316,7 @@ p.about {
 }
 div.page6 {
   height: 60vh;
+  width: 100%;
   background-image: url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3376.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
