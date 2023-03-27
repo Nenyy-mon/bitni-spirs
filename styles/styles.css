@@ -266,7 +266,7 @@ a.menubutton:hover {
   display: flex;
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.349)),
-    url(../images/Events/SON9502.jpg);
+    url(../images/Events/_SON9502.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
