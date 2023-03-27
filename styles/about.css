@@ -485,8 +485,8 @@ a i.fa-arrow-circle-up:hover:before {
 }
 div.langs {
   color: #154120;
-  padding-right: 10px;
-  font-size: larger;
+  padding-left: 10px;
+  font-size: large;
   font-weight: 100;
 }
 div.langs a {
