@@ -459,6 +459,7 @@ div.listfooter ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 100vw;
 }
 div.icons {
   display: flex;
