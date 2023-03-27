@@ -62,12 +62,6 @@ div h1 {
 div.menupng {
   background-color: #154120;
 }
-@font-face {
-  font-family: "Reforma";
-  src: url("./assets/fonts/ReformaGroteskMediumC.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
 
 /* width */
 ::-webkit-scrollbar {
@@ -106,7 +100,7 @@ div.firstpage {
       rgba(1, 38, 18, 0.425),
       rgba(1, 38, 18, 0.349)
     ),
-    url(/images/bg/Making_Burger_and_Fried_Chicken_DSC3728.jpg);
+    url(../images/bg/Making_Burger_and_Fried_Chicken_DSC3728.jpg);
   height: 100vh;
   width: 100%;
   background-size: cover;
