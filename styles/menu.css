@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Reforma";
+  src: url("../assets/fonts/ReformaGroteskMediumC.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 1em;
@@ -23,6 +29,7 @@ body {
   margin: 0;
   padding: 0;
   background-size: cover;
+  font-family: 'Reforma' !important;
 }
 a.main {
   text-decoration: dotted;
