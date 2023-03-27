@@ -134,6 +134,11 @@ img.logotext {
   align-items: center;
   justify-content: space-around;
 }
+@media screen and (max-width:400px) {
+  .page2 {
+  background-image: url(../images/bg/Making_Burger_and_Fried_Chicken_page3phone.jpg)
+  }
+}
 
 .ppage2p {
   text-decoration: none;
