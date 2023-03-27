@@ -149,6 +149,7 @@ h2.bread {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
+  font-size: xx-large;
 
   padding-top: 50px;
 }
