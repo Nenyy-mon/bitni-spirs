@@ -54,6 +54,11 @@ div.firstpage {
   background-position: center;
   background-attachment: fixed;
 }
+div h1 {
+  font-size: 17em;
+  color: white;
+  justify-content: center;
+}
 @media screen and (max-width:450px) {
   div.firstpage {
   height: 100vh;
