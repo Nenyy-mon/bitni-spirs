@@ -149,6 +149,10 @@ img.logotext {
     width: 200px;
     text-align: center;
   }
+    img.logotext {
+    padding-top: 30vh;
+    width: 60vw;
+  }
 }
 a.wolt {
   color: #009de0;
@@ -351,10 +355,7 @@ h2.about2 a:hover {
     background: white;
     margin: 6px 0;
   }
-  img.logotext {
-    padding-top: 30vh;
-    width: 60vw;
-  }
+}
 
   .navbar {
     height: 0;
