@@ -56,9 +56,18 @@ div.firstpage {
 }
 @media screen and (max-width:393px) {
   div.firstpage {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  background-attachment: scroll;
   }
 div h1 {
   font-size: 17vw;
