@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "Reforma";
   src: url("../assets/fonts/ReformaGroteskMediumC.woff") format("woff");
@@ -27,11 +26,11 @@
   background: #267439;
 }
 html {
-  font-family: 'Reforma'
+  font-family: "Reforma";
   margin: 0;
-  font-size: small;
-  background-attachment: fixed;
   scroll-behavior: smooth;
+  font-weight: 100 !important;
+  font-kerning: none;
 }
 body {
   margin: 0;
@@ -40,15 +39,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
 }
-@media screen and (max-width:393px) {
-h2.bread {
-    font-size: small;
-    text-align: left;
-    font-size: x-large;
-    width: 100%;
-    padding-left: 10px;
-}
-}
+
 ul {
   display: flex;
   align-items: center;
@@ -96,6 +87,8 @@ a.menubutton {
   border: 1px solid #154120;
   background-color: #012612;
   padding: 2vw 5vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 2em;
   font-weight: bolder;
   border-radius: 30rem;
@@ -108,6 +101,126 @@ a.menubutton {
 a.menubutton:hover {
   background-color: white;
   color: #012612;
+}
+
+div.bread {
+  background-color: #012612;
+  height: 20vh;
+  width: 100%;
+}
+div.breadfirstimg {
+  background-image: url(/images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3509.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+@media screen and(max-width:350px) {
+  div.breadfirstimg {
+    background-attachment: scroll;
+  }
+}
+h2.bread {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-weight: 100;
+  padding-top: 50px;
+}
+h2.breadfirsttxt {
+  color: #012612;
+}
+div.breadfourthimg {
+  background-image: url(/images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3613.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+div.breadthirdimg {
+  background-image: url(/images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3495.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+div.meatfirstimg {
+  background-image: url(/images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3376.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+div.meatsecondimg {
+  background-image: url(/images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3413a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+div.meatthirdimg {
+  background-image: url(/images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3425.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+div.meatfourthimg {
+  background-image: url(/images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3467a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+@media screen and (max-width: 475px) {
+  h2.bread {
+    font-size: small;
+    text-align: center;
+    font-size: xx-large;
+  }
+  h2.breadfirsttxt {
+    text-align: center;
+  }
+  div.breadthirdimg {
+    background-image: url(/images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3495crop.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  }
+}
+div.breadsecondimg {
+  background-image: url(/images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3329.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
 }
 ul li a {
   color: white;
@@ -135,159 +248,6 @@ ul li a:hover:before {
   transform: scaleX(1);
   transform-origin: left;
 }
-div.bread {
-  background-color: #012612;
-  height: 20vh;
-  width: 100%;
-}
-div.breadfirstimg {
-  background-image: url(../images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3509.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-}
-@media screen and (max-width:393px) {
-  div.breadfirstimg {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
-}
-h2.bread {
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  font-size: xx-large;
-  font-weight:100;
-  padding-top: 50px;
-}
-h2.breadfirsttxt {
-  color: #012612;
-}
-div.breadfourthimg {
-  background-image: url(../images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3613.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-}
-@media screen and (max-width:393px) {
-  div.breadfourthimg {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
-div.breadthirdimg {
-  background-image: url(../images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3495.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-}
-  @media screen and (max-width:393px) {
-  div.breadthirdimg {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
-div.meatfirstimg {
-  background-image: url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3376.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-}
-    @media screen and (max-width:393px) {
-  div.meatfirstimg {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
-div.meatsecondimg {
-  background-image: url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3413a.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  display: flex;
-}
-      @media screen and (max-width:393px) {
-  div.meatsecondimg {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
-div.meatthirdimg {
-  background-image: url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3425.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-}
-        @media screen and (max-width:393px) {
-  div.meatthirdimg {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
-div.meatfourthimg {
-  background-image: url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3467a.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-}
-          @media screen and (max-width:393px) {
-  div.meatfourthimg {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
-}
-div.breadsecondimg {
-  background-image: url(../images/about/bread/Preparing_Food_in_a_Large_Restaurant_DSC3329.jpg);
-  background-position: bottom;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100%;
-}
-            @media screen and (max-width:393px) {
-  div.breadsecondimg {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
-          }
-@font-face {
-  font-family: "Reforma";
-  src: url("./assets/fonts/ReformaGroteskMediumC.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-
-
 footer {
   background-color: #012612;
   height: auto;
@@ -464,8 +424,8 @@ a i.fa-arrow-circle-up:hover:before {
 }
 div.langs {
   color: #154120;
-  padding-left: 10px;
-  font-size: large;
+  padding-right: 10px;
+  font-size: larger;
   font-weight: 100;
 }
 div.langs a {
