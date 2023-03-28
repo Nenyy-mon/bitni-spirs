@@ -54,7 +54,7 @@ div.firstpage {
   background-position: center;
   background-attachment: fixed;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
   div.firstpage {
   height: 100vh;
   width: 100%;
