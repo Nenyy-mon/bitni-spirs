@@ -145,9 +145,11 @@ div.breadfirstimg {
   width: 100%;
   display: flex;
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:393px) {
   div.breadfirstimg {
   background-attachment:scroll;
+  height:582px;
+    width:393px
   }
 }
 h2.bread {
