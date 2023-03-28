@@ -580,5 +580,6 @@ div.langs a:hover {
     background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;
+    width: 100%;
   }
 }
