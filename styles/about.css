@@ -428,7 +428,7 @@ div.langs a:hover {
   color: white;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   div.breadfirstimg,
   div.breadsecondimg,
   div.breadthirdimg,
