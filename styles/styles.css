@@ -572,7 +572,7 @@ div.langs a {
 div.langs a:hover {
   color: white;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .page2,
   .page4,
   div.page6 {
