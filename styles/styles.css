@@ -324,6 +324,7 @@ div.page6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 h2.about2 a {
   font-weight: 800;
