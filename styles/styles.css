@@ -25,7 +25,7 @@
   background: #267439;
 }
 html {
-  font-family: "Reforma";
+  font-family: "Reforma" !important;
   margin: 0;
   font-size: small;
   background-attachment: fixed;
@@ -125,12 +125,6 @@ img.logotext {
   align-items: center;
   justify-content: space-around;
 }
-@media screen and (max-width:393px) {
-  .page2 {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
 
 .ppage2p {
   text-decoration: none;
@@ -276,18 +270,12 @@ a.menubutton:hover {
   font-weight: 900;
   position: static;
   background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.349)),
-    url(../images/bg/Making_Burger_and_Fried_Chicken_DSC3828.jpg);
+    url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3376.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-  @media screen and (max-width:393px) {
-  .page4 {
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
 
 div.page5 {
   background-color: #012612;
@@ -328,7 +316,6 @@ p.about {
 }
 div.page6 {
   height: 60vh;
-  width: 100%;
   background-image: url(../images/about/meat/Preparing_Food_in_a_Large_Restaurant_DSC3376.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -338,15 +325,9 @@ div.page6 {
   justify-content: center;
   align-items: center;
 }
-    @media screen and (max-width:393px) {
-  div.page6{
-  background-attachment:scroll;
-  height:582px;
-    width:393px
-  }
 h2.about2 a {
   font-weight: 800;
-  font-size: 3em;
+  font-size: 10vw;
   color: #012612;
   text-decoration: none;
   transition: 0.5s;
@@ -370,8 +351,9 @@ h2.about2 a:hover {
     margin: 6px 0;
   }
   img.logotext {
-    padding-top: 40vh;
+    padding-top: 50vh;
   }
+
   .navbar {
     height: 0;
     position: absolute;
@@ -383,6 +365,7 @@ h2.about2 a:hover {
     transition: 0.5s;
     overflow: hidden;
   }
+
   .navbar.active {
     height: 450px;
   }
@@ -470,14 +453,12 @@ div.listfooter ul li {
   padding: 5px;
   color: #154120;
   font-weight: 100;
-    justify-content: space-around;
 }
 
 .downfooter {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100vw;
 }
 div.icons {
   display: flex;
@@ -526,14 +507,6 @@ p.autho a {
   transition: 0.5s;
   color: #154120;
   text-decoration: none;
-}
-p.autho a {
-  transition: 0.5s;
-  color: #154120;
-  text-decoration: none;
-}
-p.autho a:hover {
-  color: #267439;
 }
 p.autho a:hover {
   color: #267439;
@@ -598,4 +571,14 @@ div.langs a {
 }
 div.langs a:hover {
   color: white;
+}
+@media screen and (max-width: 400px) {
+  .page2,
+  .page4,
+  div.page6 {
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+  }
 }
