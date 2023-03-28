@@ -26,7 +26,7 @@
   background: #267439;
 }
 html {
-  font-family: "Reforma";
+  font-family: 'Reforma' !important;
   margin: 0;
   scroll-behavior: smooth;
   font-weight: 100 !important;
@@ -406,7 +406,7 @@ p.autho a:hover {
   .fa-facebook::before,
   .fa-tiktok::before,
   .fa-instagram::before {
-    font-size: medium !important;
+    font-size: 1.6em !important;
   }
   div.listfooter ul li,
   div.callustxt,
