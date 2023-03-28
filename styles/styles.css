@@ -125,6 +125,12 @@ img.logotext {
   align-items: center;
   justify-content: space-around;
 }
+@media screen and (max-width:393px) {
+  .page2 {
+  background-attachment:scroll;
+  height:582px;
+    width:393px
+  }
 
 .ppage2p {
   text-decoration: none;
@@ -276,6 +282,12 @@ a.menubutton:hover {
   background-size: cover;
   background-attachment: fixed;
 }
+  @media screen and (max-width:393px) {
+  .page4 {
+  background-attachment:scroll;
+  height:582px;
+    width:393px
+  }
 
 div.page5 {
   background-color: #012612;
@@ -326,6 +338,12 @@ div.page6 {
   justify-content: center;
   align-items: center;
 }
+    @media screen and (max-width:393px) {
+  div.page6{
+  background-attachment:scroll;
+  height:582px;
+    width:393px
+  }
 h2.about2 a {
   font-weight: 800;
   font-size: 3em;
