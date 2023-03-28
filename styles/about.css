@@ -41,7 +41,18 @@ body {
   height: 100vh;
   overflow-x: hidden;
 }
-
+@media screen and (max-width:393px) {
+h2.bread {
+    font-size: small;
+    text-align: left;
+    font-size: x-large;
+    width: 100%;
+    padding-left: 10px;
+}
+  body {
+  width:fit-content;  
+  }
+}
 ul {
   display: flex;
   align-items: center;
