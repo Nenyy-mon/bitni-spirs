@@ -110,25 +110,7 @@ a.main {
   text-decoration: dotted;
   color: #154120;
 }
-div.firstpage {
-  background-image: linear-gradient(
-      rgba(1, 38, 18, 0.425),
-      rgba(1, 38, 18, 0.349)
-    ),
-    url(../images/bg/Making_Burger_and_Fried_Chicken_DSC3728.jpg);
-  height: 100vh;
-  width: 100%;
-  background-size: cover;
-  position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  background-position: center;
-  background-attachment: fixed;
-}
+
 div h1 {
   font-size: 17vw;
   color: white;
