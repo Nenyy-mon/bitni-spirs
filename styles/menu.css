@@ -54,6 +54,12 @@ div.firstpage {
   background-position: center;
   background-attachment: fixed;
 }
+@media screen and (max-width:393px) {
+  div.firstpage {
+  background-attachment:scroll;
+  height:582px;
+    width:393px
+  }
 div h1 {
   font-size: 17vw;
   color: white;
